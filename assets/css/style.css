@@ -1,0 +1,73 @@
+
+/*  CSC309 A3 Server
+	Author: Li Ju
+	cdf: c5juli
+	email: sheldon.ju@mail.utoronto.ca
+*/
+
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: Impact, sans-serif;
+}
+
+span.title-left:after{
+    content: " ";
+    display: inline-block;
+    background: url("../images/image-search.svg") no-repeat center;
+    background-size: 3rem 3rem;
+    margin: 0;
+    vertical-align: middle;
+    width: 4rem;
+    height: 3rem;
+}
+
+main {
+    font-family: Impact, sans-serif;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-left: 20px; 
+}
+
+#button-tips {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: white;
+    vertical-align: top;
+    background-image: url(../images/image-tip.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#button-tips:hover {
+    background-color: yellow;
+}
+
+section {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
